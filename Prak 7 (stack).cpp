@@ -45,6 +45,10 @@ public:
 		top = top->next;
 	}
 
+	void peek()
+	{
+		
+	}
 };
 
 
