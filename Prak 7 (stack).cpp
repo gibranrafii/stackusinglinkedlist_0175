@@ -71,7 +71,7 @@ public:
 
 int main()
 {
-	stack stack;
+   stack stack;
 
 
 	int choice = 0;
@@ -101,7 +101,7 @@ int main()
 				cout << "Stack is empty. Cannot pop" << endl;
 			}
 			break;
-		case 3:
+		case 3: 
 			if (!stack.isEmpty()) {
 				stack.peek();
 			}
@@ -118,5 +118,6 @@ int main()
 		}
 		cout << endl;
 	}
+	return 0;
 
 }
